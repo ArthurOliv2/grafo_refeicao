@@ -10,3 +10,6 @@ class Grafo:
         if origem in self.grafo and destino in self.grafo:
             self.grafo[origem].append(destino)
             self.grafo[destino].append(origem)   
+
+    def vizinhos(self, restaurante):
+        return self.grafo.get(restaurante, [])
