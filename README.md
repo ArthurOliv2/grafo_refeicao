@@ -43,13 +43,6 @@ Além disso, o sistema sugere restaurantes próximos (com base na localidade e t
 
 ---
 
-## 📁 Estrutura de Arquivos
-
-```
-```
-
----
-
 ## 🛠️ Como Executar
 1️⃣ Instale o Python (versão 3.x) se ainda não tiver.  
 2️⃣ Clone ou baixe este repositório.  
