@@ -25,7 +25,7 @@ restaurantes = [
     {"nome": "Real Dreams Personalizados", "tipo": "Sobremesa", "localidade": "Centro", "preco_min": 50,"preco_max": 80},
     {"nome": "Plano B", "tipo": "Sobremesa", "localidade": "Centro", "preco_min": 6,"preco_max": 30},
 
-    {"nome": "Pizzaria Oliver", "tipo": "Pizza", "localidade": "Ctaipuaçu", "preco_min": 60, "preco_max": 100},
+    {"nome": "Pizzaria Oliver", "tipo": "Pizza", "localidade": "Itaipuaçu", "preco_min": 60, "preco_max": 100},
     {"nome": "Domino's Pizza", "tipo": "Pizza", "localidade": "Itaipuaçu", "preco_min": 35, "preco_max": 80},
     {"nome": "Casa dos Sabores", "tipo": "Pizza", "localidade": "Itaipuaçu", "preco_min": 28, "preco_max": 45},
     {"nome": "Sprezzatura Itaipuaçu", "tipo": "Pizza", "localidade": "Itaipuaçu", "preco_min": 32, "preco_max": 48},
