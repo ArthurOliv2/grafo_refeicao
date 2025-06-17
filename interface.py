@@ -39,7 +39,6 @@ def iniciar_interface():
         except Exception as e:
             messagebox.showerror("Erro", f"Verifique os dados inseridos.\n{e}")
 
-    # --------- Janela ---------
     janela = tk.Tk()
     janela.title("🍽️ Recomendador de Restaurantes - Maricá")
     janela.geometry("800x700")
@@ -47,7 +46,6 @@ def iniciar_interface():
 
     janela.columnconfigure(0, weight=1)
 
-    # --------- Título ---------
     label = tk.Label(
         janela,
         text="Monte seu roteiro gastronômico 🍕🍣🍔",
@@ -58,13 +56,11 @@ def iniciar_interface():
     )
     label.grid(row=0, column=0, pady=30, sticky="n")
 
-    # --------- Frame Centralizado ---------
     frame = tk.Frame(janela, bg=CORES["fundo"])
     frame.grid(row=1, column=0, sticky="n", padx=40, pady=20)
 
     frame.columnconfigure(0, weight=1)
 
-    # --------- Campos (Vertical) ---------
     tk.Label(frame, text="Tipo de comida:", bg=CORES["fundo"], fg=CORES["texto"], font=FONTES["label"]).grid(row=0, column=0, pady=10)
     var_tipo = tk.StringVar(janela)
     var_tipo.set("Pizzaria")
@@ -83,7 +79,6 @@ def iniciar_interface():
     entry_orcamento = tk.Entry(frame, font=FONTES["label"])
     entry_orcamento.grid(row=7, column=0, sticky="ew", pady=8)
 
-    # --------- Botão ---------
     botao = tk.Button(
         frame,
         text="🔍 Buscar Restaurantes",
@@ -97,5 +92,4 @@ def iniciar_interface():
     )
     botao.grid(row=8, column=0, pady=25, sticky="ew")
 
-    # --------- Iniciar Loop ---------
     janela.mainloop()
